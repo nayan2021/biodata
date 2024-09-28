@@ -69,6 +69,31 @@ li strong {
     color: #FFD700;
 }
 
+/*link color*/
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .profile-card {
